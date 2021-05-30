@@ -74,6 +74,7 @@ RUN set -ex \
         echo 'upload_max_filesize = 100M'; \
         echo 'post_max_size = 150M'; \
         echo 'max_execution_time = 1800'; \
+        echo 'max_input_vars = 5000'; \
         echo '[opcache]'; \
         echo 'opcache.enable = 1'; \
         echo 'opcache.memory_consumption = 128'; \
