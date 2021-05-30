@@ -32,6 +32,7 @@ Seguem os requisitos mínimos necessários de software:
 
 # 1º PASSO: CRIAR VOLUMES
 docker volume create moodle-man-vol
+
 docker volume create moodle-man-arch
 
 # 2º PASSO: Criar container do BD
@@ -64,9 +65,13 @@ moodle:1.0
 # 5º PASSO: Crie as conexões
 
 docker network create --attachable moodle-network
+
 docker network connect moodle-network moodle-man-db
+
 docker network connect moodle-network moodle-man-app
+
 docker restart moodle-man-app
+
 docker restart moodle-man-db
 
 Acesse:http://ip.do.host:9090/moodle e prossiga com a instalação do moodle.
