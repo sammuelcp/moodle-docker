@@ -1,0 +1,149 @@
+.userloggedinas .usermenu .usertext .meta, .userswitchedrole .usermenu .usertext .meta, .loginfailures .usermenu .usertext .meta {
+	/* display: block; */
+	font-size: 1rem;
+        color: #fff;
+}
+
+#page-site-index.notloggedin .frontpage-numbers {
+	/* margin: 2em 0; */
+	margin-top: -3em;
+	margin-right: 0px;
+	margin-bottom: 2em;
+	margin-left: 0px;
+}
+
+body.notloggedin #loginbox #intro h1 {
+	text-align: initial;
+	margin-top: 0rem;
+}
+
+
+#page-site-index.notloggedin #page-header {
+	min-height: 600px;
+}
+#top-footer h3 {
+	text-align: initial;
+	color: #5a5a5a;
+}
+
+body.notloggedin #loginbox h3 {
+	text-align: center;
+	color: #5a5a5a;
+}
+
+h1, .h1, h2, .h2, .h3, h4, .h4, h5, .h5, h6, .h6
+{
+color: #1177d1;
+text-align: center;
+}
+a {
+	margin-inline-end: 15px;
+}
+.userpicture {
+	border-radius: 0%;
+}
+nav.navbar ul.navbar-nav .popover-region .popover-region-toggle i.fa {
+	font-size: 25px;
+}
+nav.navbar ul.navbar-nav .popover-region .popover-region-toggle {
+	color: #fff;
+        font-size: 25px;
+}
+#page-login-index.moove-login {
+	background-color: #060606;
+}
+#page-site-index.notloggedin .frontpage-maincontent h2::before, #page-site-index.notloggedin .fontpage-faq h2::before, #page-site-index.notloggedin .frontpage-maincontent h2::after, #page-site-index.notloggedin .fontpage-faq h2::after {
+	display: inline-block;
+	content: "";
+	border-bottom: 1px solid #ffb939;
+	border-top: 1px solid #ffb939;
+	width: 8rem;
+	height: 5px;
+	margin: 0 .5rem;
+	vertical-align: bottom;
+	transform: translateY(-1rem);
+}
+#page-site-index.notloggedin .frontpage-maincontent h2, #page-site-index.notloggedin .fontpage-faq h2 {
+	color: #ffb939;
+	text-align: center;
+}
+#page-site-index.notloggedin #page-header #loginbox #intro, #page-site-index.notloggedin #page-header #loginbox #boxForm {
+	margin-top: 3rem;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #444;
+	border-color: #444;
+}
+body.notloggedin #loginbox p a {
+	color: #444;
+}
+btn-primary {
+	color: #fff;
+	background-color: #444;
+	border-color: #444;
+}
+#top-footer h3 {
+	color: #444;
+}
+a {
+	color: #444;
+	text-decoration: none;
+	background-color: transparent;
+}.navbar {
+	max-height: 100px;
+	border-style: solid;
+	border-width: 0 0 4px 0;
+}
+nav.navbar {
+	min-height: 70px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+nav.navbar {
+	background-color: #333335;
+	border-bottom: 3px solid #b72a04;
+	padding-right: 0;
+	padding-top: 0;
+}
+#page-site-index.notloggedin .frontpage-numbers {
+	padding: 2em 0;
+}
+#page-site-index.notloggedin .frontpage-numbers {
+	background: #444;
+	margin: 2em 0;
+}
+.container-fluid {
+	width: 100%;
+}
+*, ::before, ::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins",sans-serif;
+	font-size: .9375rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #373a3c;
+	text-align: left;
+}
+#page-site-index.notloggedin .frontpage-numbers .row {
+	max-width: 1140px;
+	margin: 0 auto;
+	color: #fff;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+*, ::before, ::after {
+	box-sizing: border-box;
+}
+#page-site-index.notloggedin .frontpage-numbers .row h2 {
+	color: #444;
+	font-size: 3.2rem;
+	text-transform: uppercase;
+}
