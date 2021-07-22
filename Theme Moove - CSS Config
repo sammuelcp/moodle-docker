@@ -1,3 +1,16 @@
+.col-md-5 {
+    flex: 0 0 35.6666666667%;
+}
+
+#page-site-index.notloggedin .frontpage-maincontent {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+#page-site-index.notloggedin #page-header {
+    background-position: center;
+}
+
 .userloggedinas .usermenu .usertext .meta, .userswitchedrole .usermenu .usertext .meta, .loginfailures .usermenu .usertext .meta {
 	/* display: block; */
 	font-size: 1rem;
